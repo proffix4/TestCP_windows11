@@ -1,1 +1,3 @@
-java -Dfile.encoding=cp866 -jar dist\TestCP.jar
+@echo off
+chcp 1251
+java -jar dist\TestCP.jar
