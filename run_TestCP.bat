@@ -1,3 +1,3 @@
 @echo off
 chcp 1251 > nul
-java -jar dist\TestCP.jar
+java -Dfile.encoding=windows-1251 -jar dist\TestCP.jar
